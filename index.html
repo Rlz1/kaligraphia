@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Искусство Каллиграфии</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjQwIiB2aWV3Qm94PSIwIDAgMTUwIDQwIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xMCAyMEgzMFYzMEgxMFYyMFpNMzUgMTBINTVWMjBIMzVWMTBaTTYwIDI1SDgwVjM1SDYwVjI1Wk04NSAxNUgxMDVWMjVIODVWMTVaTTExMCAyMEgxMzBWMzBIMTEwVjIwWiIgZmlsbD0iY3VycmVudENvbG9yIi8+PHBhdGggZD0iTTEwIDEwSDE1VjMwSDEwVjEwWiIgZmlsbD0iY3VycmVudENvbG9yIi8+PC9zdmc+" alt="Каллиграфия" class="logo">
+        <nav class="nav-links">
+            <a href="#about" class="nav-link">О нас</a>
+            <a href="#styles" class="nav-link">Стили</a>
+            <a href="#gallery" class="nav-link">Галерея</a>
+            <a href="#fonts" class="nav-link">Шрифты</a>
+            <a href="#contact" class="nav-link">Контакты</a>
+        </nav>
+        <button class="theme-toggle">
+            <i class="material-icons">invert_colors</i>
+        </button>
+    </header>
+
+    <section class="hero">
+        <div class="video-container">
+            
+            <video autoplay muted loop class="hero-video light-video">
+                <source src="https://rr5---sn-5hne6n6e.googlevideo.com/videoplayback?expire=1750056299&ei=C2lPaIm8OdLF0u8PiaLXmQw&ip=95.26.72.195&id=o-AP7JUbNqFwYQo3VNFauQfk9hjSTGBzYMeGTJtPUrJ6qH&itag=137&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AY1jyLNsJFBNYxE_tyDHM6HQT44jmrBF8raUdb6vI2xw1UF2-hyk11jbvK2gidUqyIK1U7be2-rYP64Q&spc=l3OVKeP26feqeE1LfQ9MIClx9BMKLRd5r1PGIFofEI5uLSg7dBd2wsPC&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=49974235&dur=92.333&lmt=1675047625268820&keepalive=yes&c=ANDROID_VR&txp=5316224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIgKhB1AY7t8bvH9jXXzMNDSUiFt5tls07sIIW8IFathz4CIQCfGUlYbJhWw-mnVTr9Puv2kE2WW7ZAsmjfB1YAij4bjg%3D%3D&cm2rm=sn-8ph2xajvh-0ats7e,sn-n8vkk76&rrc=80,80&fexp=24350590,24350737,24350827,24350961,24351173,24351316,24351318,24351495,24351528,24351759,24351907,24352021,24352102,24352188,24352220,24352236&req_id=3c5cf7e69748a3ee&redirect_counter=2&cms_redirect=yes&cmsv=e&met=1750034701,&mh=J_&mm=34&mn=sn-5hne6n6e&ms=ltu&mt=1750034059&mv=u&mvi=5&pl=24&rms=ltu,au&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRAIgP6W4EsQOvwltvwWZt9KidvrFQp29-ZYVesDiAKM2BNgCIEtORVtEBkVIIATjKIL9Xmtd_oq3gLvz7NvLnbDBUCxD" type="video/mp4">
+            </video>
+            
+            <video autoplay muted loop class="hero-video dark-video">
+                <source src="https://rr10---sn-n8v7znsd.googlevideo.com/videoplayback?expire=1750056313&ei=GWlPaPKWMdOPv_IP6P-kuAM&ip=95.26.72.195&id=o-ANliWDIAzmxMBPza_sN8uUu3QNxGtJVgrzwtrsnEtSSV&itag=137&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AY1jyLMKK1VFcmkaYHS1Jbzodds7uN17Ri3GyWJ2NA4wSPRxUwl3adXINLmaJZlfmEW_vzY6WJJZxhwi&spc=l3OVKfwvN6fsmEXLF4dXKAOCFwuiBS-lsiShUuR69y2i1-T2KDhX2qoW&vprv=1&svpuc=1&mime=video%2Fmp4&rqh=1&gir=yes&clen=33980525&dur=60.033&lmt=1673128573321372&keepalive=yes&c=ANDROID_VR&txp=5316224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AJfQdSswRQIhALJhzBskRrNOn5XuQf6kV2Qr-h-3xI8Jy2BMZUJf5CJuAiBFsmGDrgUpy8dLLl4PrYgX-fALApUXjRzr2n0DUEWldQ%3D%3D&redirect_counter=1&cm2rm=sn-8ph2xajvh-0ats7l&rrc=80&fexp=24350590,24350737,24350827,24350961,24351173,24351316,24351318,24351495,24351528,24351759,24351907,24352021,24352102,24352188,24352220,24352236&req_id=d417d123e3c7a3ee&cms_redirect=yes&cmsv=e&met=1750034714,&mh=qR&mm=29&mn=sn-n8v7znsd&ms=rdu&mt=1750034457&mv=m&mvi=10&pl=24&rms=rdu,au&lsparams=met,mh,mm,mn,ms,mv,mvi,pl,rms&lsig=APaTxxMwRgIhAP4tXvNIXL9MwaTuypxdHzvpgPjcE5aRXNvQmY87Or2xAiEA6c9he1HB-MDoXxRyNvYQclnXIciOmLgu9dZqj511EKc%3D" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-glass">
+            <h1>Искусство Каллиграфии</h1>
+            <p>Превратите слова в изящные произведения искусства</p>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="section">
+        <h2 class="section-title">О нашем искусстве</h2>
+        <div class="content-grid">
+            <div class="content-card">
+                <img src="media/history.jpg" alt="История каллиграфии" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">История каллиграфии</h3>
+                    <p class="card-text">Каллиграфия зародилась тысячи лет назад и развивалась в разных культурах, от китайской и японской до арабской и западной.</p>
+                    <a href="#" class="btn">Читать далее</a>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <img src="media/modern.jpg" alt="Современная каллиграфия" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Современное искусство</h3>
+                    <p class="card-text">Сегодня каллиграфия переживает ренессанс, сочетая традиционные техники с современными подходами и цифровыми инструментами.</p>
+                    <a href="#" class="btn">Читать далее</a>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <img src="media/tools.jpg" alt="Материалы" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Инструменты и материалы</h3>
+                    <p class="card-text">От традиционных перьев и туши до современных брашпенов - выбор инструментов определяет характер вашей каллиграфии.</p>
+                    <a href="#" class="btn">Читать далее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="styles" class="section">
+        <h2 class="section-title">Популярные стили</h2>
+        <div class="content-grid">
+            <div class="content-card">
+                <img src="media/gothic.jpg" alt="Готический стиль" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Готический стиль</h3>
+                    <p class="card-text">Характеризуется угловатыми формами и плотным расположением букв. Возник в средневековой Европе.</p>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <img src="media/italic.jpg" alt="Курсив" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Итальянский курсив</h3>
+                    <p class="card-text">Элегантный и плавный стиль с наклонными буквами, разработанный в эпоху Возрождения.</p>
+                </div>
+            </div>
+            
+            <div class="content-card">
+                <img src="media/arabic.jpg" alt="Арабская вязь" class="card-img">
+                <div class="card-content">
+                    <h3 class="card-title">Арабская вязь</h3>
+                    <p class="card-text">Искусство арабской каллиграфии с плавными линиями и сложными геометрическими узорами.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <h2 class="section-title">Галерея работ</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="media/gallery1.jpg" alt="Каллиграфия 1" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Традиционная китайская каллиграфия</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="media/gallery2.jpg" alt="Каллиграфия 2" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Современный западный стиль</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="media/gallery3.jpg" alt="Каллиграфия 3" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Арабская каллиграфия на Тётин</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="media/gallery4.jpg" alt="Каллиграфия 4" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Японская каллиграфия</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="media/gallery5.jpg" alt="Каллиграфия 5" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Японские иероглифы в современной интерпретации</div>
+                </div>
+            </div>
+            
+            <div class="gallery-item">
+                <img src="media/gallery6.jpg" alt="Каллиграфия 6" class="gallery-img">
+                <div class="gallery-overlay">
+                    <div class="overlay-text">Каллиграфия акварелью</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fonts" class="section">
+        <div class="fonts-section">
+            <h2 class="section-title">Библиотека шрифтов</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto 30px; font-size: 1.1rem;">
+                Исследуйте нашу коллекцию из более чем 50 уникальных каллиграфических шрифтов, вдохновленных различными культурами и историческими периодами.
+            </p>
+            <div class="fonts-container">
+                <div class="font-grid">
+                    <div class="font-card">
+                        <div class="font-name">Garamond</div>
+                        <div class="font-example" style="font-family: 'Garamond', serif;">Пример текста для демонстрации гармоничного шрифта</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Bodoni</div>
+                        <div class="font-example" style="font-family: 'Bodoni MT', serif;">Элегантный шрифт с контрастными линиями</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Didot</div>
+                        <div class="font-example" style="font-family: 'Didot', serif;">Классический французский шрифт эпохи Просвещения</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Futura</div>
+                        <div class="font-example" style="font-family: 'Futura', sans-serif;">Геометрический шрифт в стиле баухаус</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Helvetica</div>
+                        <div class="font-example" style="font-family: 'Helvetica', sans-serif;">Самый известный нео-гротескный шрифт</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Gothic</div>
+                        <div class="font-example" style="font-family: 'Century Gothic', sans-serif;">Современная интерпретация готического письма</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Brush Script</div>
+                        <div class="font-example" style="font-family: 'Brush Script MT', cursive;">Имитация рукописного письма кистью</div>
+                    </div>
+                    
+                    <div class="font-card">
+                        <div class="font-name">Palatino</div>
+                        <div class="font-example" style="font-family: 'Palatino', serif;">Шрифт эпохи Возрождения с человеческим характером</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="support-container">
+        <div class="support-window">
+            <div class="support-header">
+                <i class="material-icons">support_agent</i>
+                <h3>Поддержка</h3>
+            </div>
+            <div class="support-body">
+                <div class="bot-message">
+                    Здравствуйте! Я виртуальный помощник. Чем могу помочь?
+                </div>
+            </div>
+            <div class="support-footer">
+                <input type="text" class="support-input" placeholder="Введите сообщение...">
+                <button class="support-send">
+                    <i class="material-icons">send</i>
+                </button>
+            </div>
+        </div>
+        <div class="support-button">
+            <i class="material-icons">support_agent</i>
+        </div>
+    </div>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Студия каллиграфии</h3>
+                <p>Превращаем слова в искусство с 2010 года. Профессиональные услуги каллиграфии для частных лиц и бизнеса.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-vk"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="far fa-envelope"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Наши услуги</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Индивидуальные уроки</a></li>
+                    <li><a href="#">Корпоративные мастер-классы</a></li>
+                    <li><a href="#">Дизайн приглашений</a></li>
+                    <li><a href="#">Разработка логотипов</a></li>
+                    <li><a href="#">Оформление интерьеров</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Контакты</h3>
+                <ul class="footer-links">
+                    <li><i class="material-icons">location_on</i> Москва, ул. Творческая, 15</li>
+                    <li><i class="material-icons">phone</i> +7 (999) 123-45-67</li>
+                    <li><i class="material-icons">email</i> info@calligraphy-art.ru</li>
+                    <li><i class="material-icons">schedule</i> Пн-Пт: 10:00 - 20:00</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>© 2025 ИП "Каллиграфия Мастер". ОГРНИП: 321774600123456 | ИНН: 771234567890</p>
+            <p>Все права защищены. Копирование материалов только с разрешения правообладателя.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
